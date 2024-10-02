@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.413), rgba(0, 0, 0, 0.413)), url(./fifitisente_1849x1040.jpeg);
+    height: 30rem;
+    background-size: 100vw;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    
+}
+main{
+    display: flex;
+    
+    height: 90vh;
+}
+footer{
+    height: 100px;
+    display: flex;
+  
+}
