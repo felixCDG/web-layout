@@ -2,25 +2,85 @@
     margin: 0%;
     padding: 0%;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol, li{
+    list-style: none;
+}
 body{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.413), rgba(0, 0, 0, 0.413)), url(./fifitisente_1849x1040.jpeg);
-    height: 30rem;
-    background-size: 100vw;
+    background-size: cover;
+    font-family: "Jomhuria", serif;
+
 }
 
 header{
-    height: 50px;
+    height: 150px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 100px;
+    /*background-color: black;*/
+
+}
+.logo{
+    display: flex;
+    height: 15vh;
+    width: 20px;
+}
+.menu ul{
+    display: flex;
+    gap: 75px;
+    font-size: 50px;
+
     
 }
+.B1 button{
+    display: flex;
+    height: 63px;
+    width: 150px;
+    background-color:#DAA51B;
+    font-family: "Poetsen One", sans-serif;
+}
+.B1 a{
+    display: flex;
+    font-size: 3vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
 main{
     display: flex;
-    
-    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+   
+}
+.conteudo h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: #DAA51B;
+
+}
+.conteudo P{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+    width: 1000px;
 }
 footer{
     height: 100px;
-    display: flex;
+    display: flex;align-items: center;
+    justify-content: center;
   
 }
